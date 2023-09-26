@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cb/pF8vTHxfawGh5KIKyGXfrMwrK0g83Vvr1zcu/nqJz76v06xQhHjYHqINEtb4MB6XFshrXtZbv1N6KVgy/mA==",
+  "success": true,
+  "projectFilePath": "D:\\Repos\\HtmlDiffMVC\\HtmlDiffMVC\\HtmlDiffMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tae0y\\.nuget\\packages\\htmldiff.net\\1.4.1\\htmldiff.net.1.4.1.nupkg.sha512",
+    "C:\\Users\\tae0y\\.nuget\\packages\\tidyhtml5managedrepack\\1.1.4\\tidyhtml5managedrepack.1.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

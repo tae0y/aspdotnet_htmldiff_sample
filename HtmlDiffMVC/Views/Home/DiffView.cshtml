@@ -1,0 +1,67 @@
+﻿@{
+	ViewData["Title"] = "Diff View";
+}
+
+<h1>Diff View</h1>
+
+<p>
+	<h3>1-1. old</h3>
+	<hr />
+	@Html.Raw(ViewBag.oldText)
+</p>
+
+
+<p>
+	<h3>1-2. old rawstring</h3>
+	<hr />
+	<pre>
+		@ViewBag.oldText
+	</pre>
+</p>
+
+<p>
+	<h3>2-1. new</h3>
+	<hr />
+	@Html.Raw(ViewBag.newText)
+	<br />
+</p>
+
+<p>
+	<h3>2-2. new rawstring</h3>
+	<hr />
+	<pre>
+		@ViewBag.newText
+	</pre>
+</p>
+
+<p>
+	<h3>3-1. diff</h3>
+	<hr />
+	@Html.Raw(ViewBag.diffOutput)
+	<br />
+</p>
+
+<p>
+	<h3>3-2. diff rawstring</h3>
+	<hr />
+	<pre>
+		@ViewBag.diffOutput
+	</pre>
+</p>
+
+
+<style>
+	ins {
+		background-color: #cfc;
+		text-decoration: none;
+	}
+
+	del {
+		color: #999;
+		background-color: #FEC8C8;
+	}
+
+	pre {
+		background-color: #D3D3D3
+	}
+</style>

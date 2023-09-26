@@ -1,0 +1,34 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<!--<div class="text-center">
+	<h1 class="display-4">Welcome</h1>
+	<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>-->
+<h1>INDEX</h1>
+
+<div>
+	<h2>DEMO</h2>
+	<hr />
+	<form action="/Home/demodiffDemo" method="post">
+		<input type="submit" value="샘플보기" />
+	</form>
+</div>
+<br />
+
+<div>
+	<h2>MANUAL</h2>
+	<hr />
+	<form action="/Home/demodiff" method="post">
+		<label for="oldtxt">old text: </label>
+		<textarea id="oldtxt" name="oldtxt" rows="5" cols="50"></textarea>
+		<br />
+
+		<label for="newtxt">new text: </label>
+		<textarea id="newtxt" name="newtxt" rows="5" cols="50"></textarea>
+		<br />
+
+		<input type="submit" value="미리해보기" />
+	</form>
+</div>

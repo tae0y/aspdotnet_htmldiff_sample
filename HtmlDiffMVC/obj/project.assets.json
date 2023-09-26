@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "htmldiff.net/1.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/HtmlDiff.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlDiff.dll": {}
+        }
+      },
+      "TidyHtml5ManagedRepack/1.1.4": {
+        "type": "package",
+        "build": {
+          "build/TidyHtml5ManagedRepack.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "htmldiff.net/1.4.1": {
+      "sha512": "vJJhpCYNs3PI1zOMrSG5Tqyyb9qSIuTtM2lX7CnfCjQHilCEBkdSjQxup89U+pUS/62jEScdHguztFjt2+nzRQ==",
+      "type": "package",
+      "path": "htmldiff.net/1.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmldiff.net.1.4.1.nupkg.sha512",
+        "htmldiff.net.nuspec",
+        "lib/net45/HtmlDiff.dll",
+        "lib/net462/HtmlDiff.dll",
+        "lib/netstandard2.0/HtmlDiff.dll",
+        "readme.md"
+      ]
+    },
+    "TidyHtml5ManagedRepack/1.1.4": {
+      "sha512": "v8230roHc6qaNk7hB9qpa7JfRcMZIX22mrPqTNMyVEWU4cKpbtOSSsC0fNuKQyDYRnv5dyUJLv/Y353kX6/owg==",
+      "type": "package",
+      "path": "tidyhtml5managedrepack/1.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/TidyHtml5ManagedRepack.targets",
+        "build/tidy.x64.dll",
+        "build/tidy.x86.dll",
+        "lib/net20/TidyHTML5Managed.dll",
+        "lib/net35/TidyHTML5Managed.dll",
+        "lib/net40/TidyHTML5Managed.dll",
+        "lib/net45/TidyHTML5Managed.dll",
+        "lib/net46/TidyHTML5Managed.dll",
+        "tidyhtml5managedrepack.1.1.4.nupkg.sha512",
+        "tidyhtml5managedrepack.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TidyHtml5ManagedRepack >= 1.1.4",
+      "htmldiff.net >= 1.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tae0y\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Repos\\HtmlDiffMVC\\HtmlDiffMVC\\HtmlDiffMVC.csproj",
+      "projectName": "HtmlDiffMVC",
+      "projectPath": "D:\\Repos\\HtmlDiffMVC\\HtmlDiffMVC\\HtmlDiffMVC.csproj",
+      "packagesPath": "C:\\Users\\tae0y\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\HtmlDiffMVC\\HtmlDiffMVC\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tae0y\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "TidyHtml5ManagedRepack": {
+            "target": "Package",
+            "version": "[1.1.4, )"
+          },
+          "htmldiff.net": {
+            "target": "Package",
+            "version": "[1.4.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
